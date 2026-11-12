@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kira GTA6</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: one calm reading column, two policy sections, a small tab switch at the top */
+:root {
+  --bg: #f6f7fb; --surface: #ffffff; --fg: #1b1d2a; --muted: #5d6277; --line: #dfe2ec; --accent: #5b3fd6;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12131b; --surface: #1a1c27; --fg: #e9eaf2; --muted: #a2a6bb; --line: #2c2f3e; --accent: #a996ff; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12131b; --surface: #1a1c27; --fg: #e9eaf2; --muted: #a2a6bb; --line: #2c2f3e; --accent: #a996ff; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.65; }
+.wrap { max-width: 44rem; margin: 0 auto; padding-block: 40px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { display: grid; gap: 6px; margin-bottom: 24px; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+h1 { font-family: var(--display); font-size: 2rem; line-height: 1.15; margin: 0; text-wrap: balance; }
+nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
+nav a { text-decoration: none; color: var(--fg); border: 1px solid var(--line); background: var(--surface);
+  padding: 8px 14px; border-radius: 999px; font-weight: 500; font-size: 14px; }
+nav a[aria-current="page"] { border-color: var(--accent); color: var(--accent); }
+nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+section { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 28px clamp(18px, 4vw, 36px); }
+h2 { font-family: var(--display); font-size: 1.5rem; margin: 0 0 4px; }
+h3 { font-family: var(--display); font-size: 1.05rem; margin: 26px 0 6px; }
+.date { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+p, li { margin: 0 0 10px; }
+ul { padding-left: 1.2em; margin: 0 0 10px; }
+code { font-size: .9em; background: var(--bg); border: 1px solid var(--line); padding: 1px 5px; border-radius: 4px; }
+footer { color: var(--muted); font-size: 13px; margin-top: 24px; }
+</style></head><body><div class="wrap">
+<header><span class="eyebrow">Kira GTA6</span></header>
+<nav><a href="/">About</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Service</a></nav>
+<section><h2>Kira GTA6</h2>
+<p>Kira GTA6 is a private web dashboard used by a single creator to prepare short news videos about the video game GTA 6 and publish them to the creator's own TikTok account.</p>
+<p>The creator connects their TikTok account with TikTok Login Kit, reviews every finished video in the dashboard, and publishes it only by clicking "Send to TikTok". Nothing is posted automatically. The dashboard runs privately on the creator's own computer and is not open to the public.</p>
+<p>Read the <a href="/privacy/">Privacy Policy</a> and the <a href="/terms/">Terms of Service</a>.</p></section>
+<footer>Kira GTA6 is an independent fan project. GTA and Grand Theft Auto are trademarks of their respective owners.</footer>
+</div></body></html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kira GTA6 Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: one calm reading column, two policy sections, a small tab switch at the top */
+:root {
+  --bg: #f6f7fb; --surface: #ffffff; --fg: #1b1d2a; --muted: #5d6277; --line: #dfe2ec; --accent: #5b3fd6;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #12131b; --surface: #1a1c27; --fg: #e9eaf2; --muted: #a2a6bb; --line: #2c2f3e; --accent: #a996ff; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #12131b; --surface: #1a1c27; --fg: #e9eaf2; --muted: #a2a6bb; --line: #2c2f3e; --accent: #a996ff; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.65; }
+.wrap { max-width: 44rem; margin: 0 auto; padding-block: 40px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { display: grid; gap: 6px; margin-bottom: 24px; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+h1 { font-family: var(--display); font-size: 2rem; line-height: 1.15; margin: 0; text-wrap: balance; }
+nav { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
+nav a { text-decoration: none; color: var(--fg); border: 1px solid var(--line); background: var(--surface);
+  padding: 8px 14px; border-radius: 999px; font-weight: 500; font-size: 14px; }
+nav a[aria-current="page"] { border-color: var(--accent); color: var(--accent); }
+nav a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+section { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 28px clamp(18px, 4vw, 36px); }
+h2 { font-family: var(--display); font-size: 1.5rem; margin: 0 0 4px; }
+h3 { font-family: var(--display); font-size: 1.05rem; margin: 26px 0 6px; }
+.date { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+p, li { margin: 0 0 10px; }
+ul { padding-left: 1.2em; margin: 0 0 10px; }
+code { font-size: .9em; background: var(--bg); border: 1px solid var(--line); padding: 1px 5px; border-radius: 4px; }
+footer { color: var(--muted); font-size: 13px; margin-top: 24px; }
+</style></head><body><div class="wrap">
+<header><span class="eyebrow">Kira GTA6</span></header>
+<nav><a href="/">About</a><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms of Service</a></nav>
+<section id="privacy" aria-labelledby="privacy-h">
+    <h2 id="privacy-h">Privacy Policy</h2>
+    <p class="date">Effective date: 12 November 2026</p>
+
+    <h3>1. What Kira GTA6 is</h3>
+    <p>Kira GTA6 is a private, single-creator tool. It helps one content creator (the "Owner") prepare short GTA 6 news videos and publish them to the Owner's own TikTok account. The app is not offered to the public. No other person can sign up or connect an account.</p>
+
+    <h3>2. Data we access from TikTok</h3>
+    <p>When the Owner connects their TikTok account through TikTok Login Kit, the app receives only:</p>
+    <ul>
+      <li><code>user.info.basic</code>: open ID, display name and avatar, used to show which account is connected.</li>
+      <li><code>video.publish</code> / <code>video.upload</code>: permission to upload videos that the Owner has reviewed and approved.</li>
+      <li>Access and refresh tokens issued by TikTok, needed to keep the connection working.</li>
+    </ul>
+    <p>The app does not read followers, messages, comments, likes, contacts or any data of other TikTok users.</p>
+
+    <h3>3. How the data is used</h3>
+    <ul>
+      <li>To display the connected account name and avatar in the Owner's dashboard.</li>
+      <li>To upload a video to TikTok only after the Owner manually clicks to approve and send it.</li>
+    </ul>
+    <p>The app never posts automatically without this manual approval.</p>
+
+    <h3>4. Storage and security</h3>
+    <p>All data is stored locally on the Owner's own computer. The dashboard is reachable only inside the Owner's private network and is protected by a login. Tokens are never published, shared, sold or used for advertising.</p>
+
+    <h3>5. Sharing</h3>
+    <p>Data is shared with no one. The only transfer is the video upload to TikTok itself, through TikTok's official API.</p>
+
+    <h3>6. Retention and deletion</h3>
+    <p>Data is kept only as long as the TikTok account is connected. The Owner can delete it at any time by disconnecting the account in the dashboard, or by removing the app under TikTok › Settings and privacy › Security › Manage app permissions. After disconnecting, the stored tokens and profile data are deleted.</p>
+
+    <h3>7. Children</h3>
+    <p>The app is not directed at children and is used only by the adult Owner.</p>
+
+    <h3>8. Changes and contact</h3>
+    <p>If this policy changes, the effective date above is updated. Questions about this policy can be sent as a direct message to the TikTok account connected to Kira GTA6.</p>
+  </section>
+<footer>Kira GTA6 is an independent fan project. GTA and Grand Theft Auto are trademarks of their respective owners.</footer>
+</div></body></html>
